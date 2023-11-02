@@ -1,0 +1,158 @@
+{
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.easymotionMarkerForegroundColorOneChar": "#ffffff",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-z>": false,
+    "<C-n>": false,
+    "<C-f>": false
+  },
+  "editor.lineNumbers": "relative",
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "workbench.iconTheme": "material-icon-theme",
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  // VSCode Ram Optimized
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/node_modules": false,
+    "node_modules": false,
+    "venv": true,
+    "*.sublime-*": true,
+    "env*": true
+  },
+  "search.exclude": {
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/env/**": true,
+    "**/node_modules/**": true,
+    "**/node_modules/*/**": false,
+    "**/venv/**": true,
+    "env-*": true
+  },
+  "zenMode.fullScreen": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.restore": false,
+  // Autoprefixer Options
+  "autoprefixer.options": {
+    "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
+  },
+  "workbench.startupEditor": "none",
+  "tabnine.experimentalAutoImports": true,
+  "editor.rulers": [80],
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontSize": 15,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.fontLigatures": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.preferredDarkColorTheme": "Tokyo Night",
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.confirmSync": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "diffEditor.wordWrap": "off",
+  "[markdown]": {
+    "diffEditor.wordWrap": "off",
+    "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "off"
+  },
+
+  /* Prettier config */
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 999,
+  "prettier.singleQuote": true,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#c0caf5",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#237e02",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#e6e6e6",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiBlue": "#00a1f9",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B",
+    "editorBracketMatch.border": "#00000000",
+    "editorBracketMatch.background": "#ffffff0c"
+  },
+  "editor.cursorBlinking": "solid",
+  "terminal.integrated.cursorStyle": "line",
+  /* "indentRainbow.colors": ["rgba(247,118,115,0.07)", "rgba(187,154,247,0.07)", "rgba(158,206,95,0.07)", "rgba(137,221,255,0.07)"], */
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "CodeGPT.maxTokens": 500,
+  "CodeGPT.query.language": "Spanish",
+  "git.autofetch": true,
+  "window.zoomLevel": 1,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.insertSpaces": false,
+  "editor.columnSelection": true,
+  "redhat.telemetry.enabled": true
+}
